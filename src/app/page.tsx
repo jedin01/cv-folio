@@ -12,6 +12,10 @@ export default function Home() {
       <div className="rgihtside-content">
         <div className="name">Abner Lourenço</div>
         <div className="slogan">"Tentando chegar ao modo criativo"</div>
+        <div className="solutions">
+          <div className="opens-source"></div>
+          <div className="projetos-privados-concluidos"></div>
+        </div>
       </div>
     </main>
   );

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "home page for the portfolio app",
 };
 
-export default function ABout(){
+export default function About(){
     return (
         <main>
             
