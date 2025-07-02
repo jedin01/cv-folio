@@ -6,5 +6,13 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <div className=""></div>;
+  return (
+    <main className="">
+      <div className="leftside-image"></div>
+      <div className="rgihtside-content">
+        <div className="name">Abner Lourenço</div>
+        <div className="slogan">"Tentando chegar ao modo criativo"</div>
+      </div>
+    </main>
+  );
 }

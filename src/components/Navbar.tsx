@@ -1,4 +1,4 @@
-function Sidebar({}) {
+export default function Sidebar({}) {
   return (
     <>
       <nav className="bg-black text-white flex">
@@ -15,5 +15,3 @@ function Sidebar({}) {
     </>
   );
 }
-
-export default Sidebar;
