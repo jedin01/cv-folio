@@ -120,3 +120,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.leftside-image {
+  width: 424px;
+  height: 400px;
+  background-image: url('https://placekitten.com/424/400'); /* sua imagem */
+  background-size: cover;
+  clip-path: url(#formaClip);
+}
