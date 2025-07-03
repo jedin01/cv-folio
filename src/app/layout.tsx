@@ -22,12 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Archivo&family=Archivo+Black&display=swap"
           rel="stylesheet"
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-white font-[Archivo_Black]`}
       >
         <Sidebar />
         {children}

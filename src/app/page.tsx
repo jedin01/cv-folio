@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex justify-between items-center h-screen bg-black text-white px-40">
+    <main className="flex justify-between items-center h-screen text-white px-40">
       {/* SVG com imagem clipada pela forma */}
       <div className="">
         <svg
-          width="424"
-          height="400"
+          width="324"
+          height="300"
           viewBox="0 0 424 400"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -36,12 +36,36 @@ export default function Home() {
         </svg>
       </div>
 
-      <div className="rgihtside-content">
-        <div className="text-[60px]">Abner Lourenço</div>
-        <div className="slogan">"Tentando chegar ao modo criativo"</div>
-        <div className="solutions">
-          <div className="opens-source"></div>
-          <div className="projetos-privados-concluidos"></div>
+      <div className="rightside-content flex flex-col justify-between h-[310px]">
+        <div className="">
+          <div className="text-[65px] font-bold leading-tight">
+            Abner Lourenço
+          </div>
+
+          <div className="text-xl italic font-[Archivo]">
+            "Tentando chegar ao modo criativo"
+          </div>
+        </div>
+
+        <div className="flex justify-between gap-10 w-full text-white py-6">
+          {[
+            { title: "Open source", value: "201" },
+            { title: "Private", value: "07" },
+            { title: "Art", value: "321" },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center text-center space-y-3"
+            >
+              <h3 className="uppercase tracking-wider font-[Archivo] text-sm md:text-base text-gray-300">
+                {item.title}
+              </h3>
+              <div className="w-8 h-1 bg-white rounded" />
+              <p className="text-[48px] md:text-[64px] font-black leading-none">
+                {item.value}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </main>
