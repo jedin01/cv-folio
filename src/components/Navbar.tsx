@@ -1,7 +1,7 @@
 export default function Sidebar({}) {
   return (
     <>
-      <nav className=" text-white flex justify-between py-6 fixed w-full px-40">
+      <nav className=" text-white flex justify-between py-6 fixed w-full px-40 font-[Archivo]">
         <div>
           <img src="" alt="logo" />
         </div>

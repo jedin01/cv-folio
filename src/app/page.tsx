@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex justify-between items-center h-screen text-white px-40">
+    <main id="home" className="flex justify-between items-center h-screen text-white px-40">
       {/* SVG com imagem clipada pela forma */}
       <div className="">
         <svg

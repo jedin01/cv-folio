@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function XP() {
   return (
-    <main>
+    <main id="xp">
       <div className="barra com empresas e tals"></div>
       <div className="timeline"></div>
     </main>

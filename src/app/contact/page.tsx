@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Contact(){
     return (
-        <main>
+        <main id="contact">
             
         </main>
     )

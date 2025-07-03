@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function About(){
     return (
-        <main>
+        <main id="about">
             
         </main>
     )
