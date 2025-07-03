@@ -1,7 +1,7 @@
 export default function Sidebar({}) {
   return (
     <>
-      <nav className="bg-gray-800 text-white flex justify-between py-6 fixed w-full px-40">
+      <nav className="bg-black text-white flex justify-between py-6 fixed w-full px-40">
         <div>
           <img src="" alt="logo" />
         </div>

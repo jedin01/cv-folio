@@ -13,7 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,6 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
