@@ -27,7 +27,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-white font-[Archivo_Black]`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white font-[Archivo_Black] px-50`}
       >
         {children}
       </body>
