@@ -29,7 +29,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-950 text-white font-[Archivo_Black]`}
       >
-        <Sidebar />
         {children}
       </body>
     </html>
