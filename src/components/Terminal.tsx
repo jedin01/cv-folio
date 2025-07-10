@@ -21,6 +21,6 @@ export const Terminal = () => (
         <div className="h-fit px-[5px] bg-[#434c5e]">~/D/r/cv</div>
         <div className="h-fit px-[5px] bg-[#a2bd8b] text-[#1d1d20]">feature/curriculo</div>
       </div>
-    </main>
+    </main> 
   </main>
 );
