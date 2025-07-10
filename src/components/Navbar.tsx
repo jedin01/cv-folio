@@ -1,4 +1,4 @@
-export default function Sidebar({}) {
+export default function Sidebar() {
   return (
     <>
       <nav className=" text-white flex justify-between py-6 fixed w-full px-40 font-[Archivo]">
