@@ -11,7 +11,7 @@ export const Terminal = () => (
       </div>
       <div id="terminal-tabs" className="h-fit py-[5px]">
         <div className="h-[60%] w-fit bg-[#434346] px-20 rounded-[5px] text-[12px] p-[5px] ">
-          ~/D/r/cv
+          ~/D/r/cv <span>  </span>
         </div>
       </div>
     </nav>
