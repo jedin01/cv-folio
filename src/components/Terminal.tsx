@@ -1,5 +1,5 @@
 export const Terminal = () => (
-  <main className="w-[500px] h-[200px] border-[2px] bg-[#04052e] border-[#5a5a5f] rounded-[5px]">
+  <main className="w-[400px] h-[150px] border-[2px] bg-[#04052e] border-[#5a5a5f] rounded-[5px]">
     {/*<nav className="w-full bg-[#2e2e32] flex flex-col p-[5px]">
       <div id="terminal-header" className="flex justify-center">
         <div className=""></div>
