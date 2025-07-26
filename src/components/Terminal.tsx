@@ -1,5 +1,12 @@
 export const Terminal = () => (
-  <main className="w-[400px] h-[150px] border-[2px] bg-[#04052e] border-[#5a5a5f] rounded-[5px]">
+  <main className="w-[450px] h-[180px] border-[2px] bg-[#04052e] border-[#404049] rounded-[5px]">
+    <nav className="flex justify-end">
+      <div className="flex w-fit gap-3 p-2">
+        <div className="bg-[#404049] rounded-[100%] h-[20px] w-[20px]"></div>
+        <div className="bg-[#404049] rounded-[100%] h-[20px] w-[20px]"></div>
+        <div className="bg-[#404049] rounded-[100%] h-[20px] w-[20px]"></div>
+      </div>
+    </nav>
     {/*<nav className="w-full bg-[#2e2e32] flex flex-col p-[5px]">
       <div id="terminal-header" className="flex justify-center">
         <div className=""></div>
@@ -14,7 +21,7 @@ export const Terminal = () => (
           ~/D/r/cv <span>  </span>
         </div>
       </div>
-    </nav>*/}
+    </nav>
 
     <main className="text-[12px]">
       <div className="flex p-[5px] font-bold">
@@ -26,6 +33,6 @@ export const Terminal = () => (
           feature/curriculo
         </div>
       </div>
-    </main>
+    </main>*/}
   </main>
 );
