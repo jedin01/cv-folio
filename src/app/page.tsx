@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center h-full">
-      <div className="w-fit">
+      <div className="w-fit h-fit relative top-[-80]" >
         <section className="text-[12px] relative top-50">
           <div className="w-[300px]">
             <div className="border-b-2 w-fit">
