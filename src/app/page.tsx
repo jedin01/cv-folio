@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <p className="text-[100px] leading-[90px] font-extrabold absolute top-[40px] left-[600px] text-[#333331]">
+      <p className="text-[120px] leading-[120px] font-extrabold absolute top-[40px] left-[550px] text-[#333331]">
         Abner <br /> Lourenço
       </p>
 
