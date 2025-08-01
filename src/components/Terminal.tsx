@@ -1,5 +1,5 @@
 export const Terminal = () => (
-  <main className="w-[450px] h-[180px] border-[2px] bg-[#04052e] border-[#404049] rounded-[5px]">
+  <main className="w-[450px] h-[180px] border-[2px] bg-[#2e2e3c] border-[#404049] rounded-[5px]">
     <nav className="flex justify-end">
       <div className="flex w-fit gap-3 p-2">
         <div className="bg-[#404049] rounded-[100%] h-[20px] w-[20px]"></div>

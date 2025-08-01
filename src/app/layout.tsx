@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,6 +12,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,15 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Archivo&family=Archivo+Black&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+      <head />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#04052e] text-white font-[Archivo_Black] h-dvh w-[1200px] mx-auto my-0`}
-      > 
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased bg-[#E7E9E8] h-[1865px] w-fit mx-auto my-0`}
+      >
         {children}
       </body>
     </html>

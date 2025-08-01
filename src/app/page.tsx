@@ -1,34 +1,12 @@
-// app/page.tsx ou app/layout.tsx
-
-import { Metadata } from "next";
-import "./globals.css";
-import { Terminal } from "../components/Terminal";
-
-export const metadata: Metadata = {
-  title: "Home",
-  description: "home page for the portfolio app",
-};
-
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center h-full">
-      <div className="w-fit h-fit relative top-[-80]" >
-        <section className="text-[12px] relative top-50">
-          <div className="w-[300px]">
-            <div className="border-b-2 w-fit">
-              <p className="font-bold pb-2">Web Developer</p>
-            </div>
-            <p className="w-full font-light p-2 ">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              laborum maiores est? Libero, minus hic exercitationem quam odio ab
-              dolore voluptatem alias in delectus labore facilis harum nisi
-              ducimus accusantium.
-            </p>
-          </div>
-        </section>
-        <div className="w-[250px] h-[250px] bg-white rounded-[5px] z-[-2] relative top-[66] left-[350] overflow-hidden shadow-2xs shadow-black"></div>
-        <Terminal />
-      </div>
-    </main>
+    <>
+      <p className="text-[100px] leading-[90px] font-extrabold absolute top-[40px] left-[600px] text-[#333331]">
+        Abner <br /> Lourenço
+      </p>
+
+      <div className="bg-[#333331] w-[416px] h-[651px] rounded-[70px] text-white scale-[.78] absolute top-[-30] left-[90] z-0"></div>
+      <div className="h-[1700px] w-[1200px] bg-[url('/images/fundo.svg')] bg-contain bg-center bg-no-repeat relative top-[-150] z-10"></div>
+    </>
   );
 }
