@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
   faDiagramProject,
-  faBriefcase,
   faUser
 } from "@fortawesome/free-solid-svg-icons";
 
