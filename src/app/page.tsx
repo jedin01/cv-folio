@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div>
             <div className="flex flex-col gap-2">
-              <h3 className="text-[20px] font-semibold">2020 <br/> Studant Awards</h3>
+              <h3 className="text-[18px] font-semibold">2020 <br/> Studant Awards</h3>
               <p className="text-[16px] font-extralight text-justify">
                 Inaugurado em novembro de 2023, este novo aeroporto, localizado
                 a cerca de 40 km do centro de Luanda, está a expandir
@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div>
             <div className="flex flex-col gap-2">
-              <h3 className="text-[20px] font-semibold">2020 <br/> Finish Hight School</h3>
+              <h3 className="text-[18px] font-semibold">2020 <br/> Finish Hight School</h3>
               <p className="text-[16px] font-extralight text-justify">
                 Inaugurado em novembro de 2023, este novo aeroporto, localizado
                 a cerca de 40 km do centro de Luanda, está a expandir
