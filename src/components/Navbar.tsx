@@ -16,12 +16,6 @@ export default function Navbar() {
         <a href="/experiencia" className="hover:text-[#febe76] transition">
           <FontAwesomeIcon icon={faDiagramProject} className="w-4 h-4" />
         </a>
-        <a
-          href="/empresas_parcerias_projetos"
-          className="hover:text-[#febe76] transition"
-        >
-          <FontAwesomeIcon icon={faBriefcase} className="w-4 h-4" />
-        </a>
         <a href="/sobre" className="hover:text-[#febe76] flex items-center gap-2">
           <FontAwesomeIcon icon={faUser} className="w-4 h-4" />
         </a>
