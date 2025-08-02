@@ -13,7 +13,41 @@ export default function Home() {
       <p className="text-[140px] leading-[120px] font-extrabold absolute top-[40px] left-[520px] text-[#333331]">
         Abner <br /> Lourenço
       </p>
-
+      <section className="flex absolute z-40 top-170 left-140 text-[#333331] w-[650px] justify-between">
+        <div className="w-[300px]">
+          <div className="mb-2 text-[20px]">
+            <h3 className="font-bold">Prêmios</h3>
+          </div>
+          <div>
+            <div className="flex flex-col gap-2">
+              <h3 className="text-[20px] font-semibold">2020 <br/> Studant Awards</h3>
+              <p className="text-[16px] font-extralight text-justify">
+                Inaugurado em novembro de 2023, este novo aeroporto, localizado
+                a cerca de 40 km do centro de Luanda, está a expandir
+                gradualmente suas operações. A transferência completa dos voos
+                internacionais está prevista para outubro de 2025
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="w-[300px]">
+          <div className="mb-2 text-[20px]">
+            <h3 className="font-bold">Experiência</h3>
+          </div>
+          <div>
+            <div className="flex flex-col gap-2">
+              <h3 className="text-[20px] font-semibold">2020 <br/> Finish Hight School</h3>
+              <p className="text-[16px] font-extralight text-justify">
+                Inaugurado em novembro de 2023, este novo aeroporto, localizado
+                a cerca de 40 km do centro de Luanda, está a expandir
+                gradualmente suas operações. A transferência completa dos voos
+                internacionais está prevista para outubro de 2025
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <div className="absolute top-100 left-190 z-40 flex flex-col gap-5">
         <div className="flex items-center gap-4">
           <button className="border-[#febe76] text-[#febe76] font-semibold border p-2 rounded-[70px] text-[20px] hover:bg-[#febe76] hover:text-[#333331] duration-300">
@@ -79,10 +113,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-[300px] absolute z-40 top-160 left-44 text-white text-[20px] flex flex-col gap-5">
+      
+      <div className="w-[300px] absolute z-40 top-170 left-44 text-white text-[20px] flex flex-col gap-5">
         <h3 className="font-bold">Lorem ocupusolos, cons cmnipa spise</h3>
-        <p className="font-extralight text-[18px]">O projeto do metro de superfície, com uma extensão inicial de 60 km, recebeu autorização presidencial para despesas de 2,3 mil milhões de euros. A construção está prevista para iniciar ainda em 2025, visando melhorar a mobilidade urbana na capital. [1]</p>
+        <p className="font-extralight text-[18px text-justify]">
+          O projeto do metro de superfície, com uma extensão inicial de 60 km,
+          recebeu autorização presidencial para despesas de 2,3 mil milhões de
+          euros.
+        </p>
       </div>
+      
       <div className="bg-[#333331] w-[416px] h-[651px] rounded-[70px] text-white scale-[.78] absolute top-[-30] left-[90] z-0"></div>
       <div className="h-[1700px] w-[1200px] bg-[url('/images/fundo.svg')] bg-contain bg-center bg-no-repeat relative top-[-150] z-10"></div>
     </>
