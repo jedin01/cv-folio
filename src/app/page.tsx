@@ -79,7 +79,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      <div className="w-[300px] absolute z-40 top-160 left-44 text-white text-[20px] flex flex-col gap-5">
+        <h3 className="font-bold">Lorem ocupusolos, cons cmnipa spise</h3>
+        <p className="font-extralight text-[18px]">O projeto do metro de superfície, com uma extensão inicial de 60 km, recebeu autorização presidencial para despesas de 2,3 mil milhões de euros. A construção está prevista para iniciar ainda em 2025, visando melhorar a mobilidade urbana na capital. [1]</p>
+      </div>
       <div className="bg-[#333331] w-[416px] h-[651px] rounded-[70px] text-white scale-[.78] absolute top-[-30] left-[90] z-0"></div>
       <div className="h-[1700px] w-[1200px] bg-[url('/images/fundo.svg')] bg-contain bg-center bg-no-repeat relative top-[-150] z-10"></div>
     </>
