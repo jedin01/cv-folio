@@ -1,4 +1,11 @@
-import { FacebookIcon, GithubIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faInstagram,
+  faLinkedin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -9,21 +16,66 @@ export default function Home() {
 
       <div className="absolute top-100 left-190 z-40 flex flex-col gap-5">
         <div className="flex items-center gap-4">
-          <button className="border-[#febe76] text-[#febe76] font-semibold border p-2 rounded-[70px] text-[20px]">
+          <button className="border-[#febe76] text-[#febe76] font-semibold border p-2 rounded-[70px] text-[20px] hover:bg-[#febe76] hover:text-[#333331] duration-300">
             Contacto
-          </button> 
-          <p className="font-semibold text-[#fff]">abnerjaredejede@gmail.com</p>
+          </button>
+          <p className="font-semibold text-[#febe76]">
+            abnerjaredejede@gmail.com
+          </p>
         </div>
         <div className="text-[#fff] flex flex-col gap-5">
           <p className="font-bold">
-            Tel.: <span className="font-extralight">+244 957 024 977</span>
+            Tel.:{" "}
+            <span className="font-extralight">
+              +244 934 424 130 | +244 957 024 977
+            </span>
           </p>
 
-          <div className="flex justify-between">
-            <GithubIcon />
-            <LinkedinIcon />
-            <FacebookIcon />
-            <InstagramIcon />
+          <div className="flex justify-between gap-4">
+            <a
+              href="https://github.com/jedin01"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-gray-500 p-3 transition-all duration-300 hover:bg-gray-800 hover:text-white"
+            >
+              <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://linkedin.com/in/abnerlouren"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-gray-500 p-3 transition-all duration-300 hover:bg-blue-700 hover:text-white"
+            >
+              <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://facebook.com/abner.jarede.2007"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-gray-500 p-3 transition-all duration-300 hover:bg-blue-600 hover:text-white"
+            >
+              <FontAwesomeIcon icon={faFacebook} className="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://instagram.com/teu_usuario"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-gray-500 p-3 transition-all duration-300 hover:bg-pink-600 hover:text-white"
+            >
+              <FontAwesomeIcon icon={faInstagram} className="w-5 h-5" />
+            </a>
+
+            <a
+              href="https://x.com/jdn_098"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-gray-500 p-3 transition-all duration-300 hover:bg-black hover:text-white"
+            >
+              <FontAwesomeIcon icon={faXTwitter} className="w-5 h-5" />
+            </a>
           </div>
         </div>
       </div>
