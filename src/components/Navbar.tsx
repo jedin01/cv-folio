@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
   faDiagramProject,
-  faUser,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
