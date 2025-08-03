@@ -23,7 +23,7 @@ export default function Home() {
             <div className="flex flex-col gap-2">
               <h3 className="text-[18px] font-semibold">Ilustrador</h3>
               <p className="text-[16px] font-extralight text-justify">
-                (Comics)
+                (Comics and such so)
               </p>
             </div>
           </div>
