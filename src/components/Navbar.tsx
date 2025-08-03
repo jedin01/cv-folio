@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
   faDiagramProject,
-  faUser,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
@@ -46,20 +45,6 @@ export default function Navbar() {
           <div
             className={`w-1.5 h-1.5 rounded-full transition-colors duration-300 ${
               pathname === "/xp" ? "bg-[#febe76]" : "bg-transparent"
-            }`}
-          ></div>
-        </a>
-        <a
-          href="/about"
-          title="Sobre"
-          className={`hover:text-[#febe76] transition-colors duration-300 flex flex-col items-center gap-2 ${getLinkClass(
-            "/about",
-          )}`}
-        >
-          <FontAwesomeIcon icon={faUser} className="w-4 h-4" />
-          <div
-            className={`w-1.5 h-1.5 rounded-full transition-colors duration-300 ${
-              pathname === "/about" ? "bg-[#febe76]" : "bg-transparent"
             }`}
           ></div>
         </a>
