@@ -50,20 +50,6 @@ export default function Navbar() {
           ></div>
         </a>
         <a
-          href="/about"
-          title="Sobre"
-          className={`hover:text-[#febe76] transition-colors duration-300 flex flex-col items-center gap-2 ${getLinkClass(
-            "/about",
-          )}`}
-        >
-          <FontAwesomeIcon icon={faUser} className="w-4 h-4" />
-          <div
-            className={`w-1.5 h-1.5 rounded-full transition-colors duration-300 ${
-              pathname === "/about" ? "bg-[#febe76]" : "bg-transparent"
-            }`}
-          ></div>
-        </a>
-        <a
           href="/cv.pdf" // Coloque o seu CV na pasta `public` e atualize este caminho se necessário
           download
           title="Download CV"
