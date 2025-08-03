@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className=" bg-[#333331] p-4 rounded-[70px] fixed text-[#E7E9E8] top-[50vh] right-5 z-50 flex flex-col gap-8 overflow-hidden">
+      <div className=" bg-[#333331] p-4 rounded-[70px] fixed text-[#E7E9E8] top-[25vh] right-5 z-50 flex flex-col gap-8 overflow-hidden">
         <Link
               href="/"
               title="Home"

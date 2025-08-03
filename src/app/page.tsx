@@ -13,6 +13,32 @@ export default function Home() {
       <p className="text-[140px] leading-[120px] font-extrabold absolute top-[40px] left-[520px] text-[#333331]">
         Abner <br /> Lourenço
       </p>
+      
+      <section className="absolute z-40 left-[180] text-[#333331] top-270 flex w-[300px] justify-between">
+        <div className="">
+          <div className="mb-2 text-[20px]">
+            <h3 className="font-bold">Habilidades</h3>
+          </div>
+          <div>
+            <div className="flex flex-col gap-2">
+              <h3 className="text-[18px] font-semibold">Ilustrador</h3>
+              <p className="text-[16px] font-extralight text-justify">
+                (Comics)
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="flex gap-2">
+            <div className="bg-[#333331] w-5 h-5 rounded-full"></div>
+            <div className="bg-[#333331] w-5 h-5 rounded-full"></div>
+            <div className="bg-[#333331] w-5 h-5 rounded-full"></div>
+            <div className="bg-[#333331] w-5 h-5 rounded-full"></div>
+            <div className="bg-[#333331] w-5 h-5 rounded-full"></div>
+          </div>
+        </div>
+      </section>
+      
       <section className="flex absolute z-40 top-170 left-140 text-[#333331] w-[650px] justify-between">
         <div className="w-[300px]">
           <div className="mb-2 text-[20px]">
