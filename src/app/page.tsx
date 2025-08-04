@@ -9,7 +9,7 @@ import {
 export default function Home() {
   return (
     <>
-      <p className="text-[140px] leading-[120px] font-extrabold absolute top-[40px] left-[520px] text-[#333331]">
+      <p className="text-[140px] leading-[120px] font-extrabold absolute top-[45px] left-[520px] text-[#333331]">
         Abner <br /> Lourenço
       </p>
 
@@ -152,11 +152,11 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="bg-[#333331] w-[444px] h-[651px] rounded-[70px] text-white scale-[.78] absolute top-[-30] left-[90] z-0 overflow-hidden">
-        <img src="/images/hero-pic.png" className="relative bottom-30" />
+      <div className="bg-[#333331] w-[444px] h-[621px] scale-[.835] rounded-[70px] text-white absolute top-[0] left-[90] z-0 overflow-hidden">
+        <img src="/images/hero-pic.png" className="relative bottom-50" />
       </div>
       
-      <div className="absolute left-20 top-[350] w-[1268px] h-[801px]">
+      <div className="absolute left-25 top-[380] w-fit h-[801px]">
         <svg
           width="1168"
           height="701"
