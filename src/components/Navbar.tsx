@@ -38,13 +38,13 @@ export default function Navbar() {
           href="/xp"
           title="Experiência"
           className={`hover:text-[#febe76] transition-colors duration-300 flex flex-col items-center gap-2 ${getLinkClass(
-            "/xp",
+            "/xp/projects",
           )}`}
         >
           <FontAwesomeIcon icon={faDiagramProject} className="w-4 h-4" />
           <div
             className={`w-1.5 h-1.5 rounded-full transition-colors duration-300 ${
-              pathname === "/xp" ? "bg-[#febe76]" : "bg-transparent"
+              pathname === "/xp/projects" ? "bg-[#febe76]" : "bg-transparent"
             }`}
           ></div>
         </a>
