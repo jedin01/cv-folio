@@ -8,8 +8,12 @@ export const metadata: Metadata = {
 export default function XP() {
   return (
     <main id="xp">
-      <div className="barra com empresas e tals"></div>
-      <div className="timeline"></div>
+      <div className="w-[20%] h-full">
+        <h3></h3>
+      </div>
+      <section className="bg-[#333331] w-[80%] h-full">
+        
+      </section>
     </main>
   );
 }
