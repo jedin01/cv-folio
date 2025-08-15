@@ -7,11 +7,11 @@ export const metadata: Metadata = {
 
 export default function XP() {
   return (
-    <main id="xp">
-      <div className="w-[20%] h-full">
-        <h3></h3>
+    <main id="xp" className="flex">
+      <div className="w-[10vw] h-[100vh] flex">
+        <h3 className="text-[#333331] text-[121px] font-black rotate-270 ">PROJECTS</h3>
       </div>
-      <section className="bg-[#333331] w-[80%] h-full">
+      <section className="bg-[#333331] w-[90vw] h-[100vh]">
         
       </section>
     </main>
